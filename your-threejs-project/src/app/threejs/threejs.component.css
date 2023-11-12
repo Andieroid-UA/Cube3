@@ -1,0 +1,5 @@
+/* threejs.component.css */
+#rendererContainer {
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+}
