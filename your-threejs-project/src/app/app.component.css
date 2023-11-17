@@ -10,3 +10,12 @@
 p {
   font-size: 25px;
 }
+
+.panorama {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide potential overflow */
+}

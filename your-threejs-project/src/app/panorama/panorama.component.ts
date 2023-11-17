@@ -8,7 +8,7 @@ import { PMREMGenerator } from 'three';
   styleUrls: ['./panorama.component.css']
 })
 export class PanoramaComponent implements OnInit {
-  @ViewChild('containerRef') containerRef!: ElementRef<HTMLDivElement>;
+  @ViewChild('containerRef', { static: true }) containerRef!: ElementRef<HTMLDivElement>;
 
   private camera!: THREE.PerspectiveCamera;
   private scene!: THREE.Scene;
@@ -39,7 +39,7 @@ export class PanoramaComponent implements OnInit {
     geometry.scale(-1, 1, 1);
 
     const textureLoader = new THREE.TextureLoader();
-    textureLoader.load('assets/img/pano.jpg', (texture) => {
+    textureLoader.load('assets/img/panorama.png', (texture) => {
       const pmremGenerator = new PMREMGenerator(this.renderer);
       pmremGenerator.compileEquirectangularShader();
 
