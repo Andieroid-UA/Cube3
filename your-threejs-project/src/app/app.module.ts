@@ -4,17 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ThreejsComponent } from './threejs/threejs.component';
+import { PanoramaComponent } from './panorama/panorama.component'; // Add this import statement
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ThreejsComponent
+    ThreejsComponent,
+    PanoramaComponent
   ],
+  providers: [],
+  bootstrap: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  ]
 })
 export class AppModule { }
