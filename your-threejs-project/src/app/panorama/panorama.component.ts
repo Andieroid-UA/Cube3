@@ -28,31 +28,13 @@ export class PanoramaComponent implements OnInit {
 
   ngOnInit() {
     this.init();
+    this.createSphere();
     this.animate();
   }
 
   init() {
     this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1100);
     this.scene = new THREE.Scene();
-
-    const geometry = new THREE.SphereGeometry(500, 60, 40);
-    geometry.scale(-1, 1, 1);
-
-    const textureLoader = new THREE.TextureLoader();
-    textureLoader.load('assets/img/panorama.png', (texture) => {
-      const pmremGenerator = new PMREMGenerator(this.renderer);
-      pmremGenerator.compileEquirectangularShader();
-
-      const envMap = pmremGenerator.fromEquirectangular(texture).texture;
-
-      texture.dispose();
-      pmremGenerator.dispose();
-
-      const material = new THREE.MeshBasicMaterial({ map: envMap });
-      const mesh = new THREE.Mesh(geometry, material);
-
-      this.scene.add(mesh);
-    });
 
     this.renderer = new THREE.WebGLRenderer();
     this.renderer.setPixelRatio(window.devicePixelRatio);
@@ -69,7 +51,6 @@ export class PanoramaComponent implements OnInit {
   onWindowResize() {
     this.camera.aspect = window.innerWidth / window.innerHeight;
     this.camera.updateProjectionMatrix();
-
     this.renderer.setSize(window.innerWidth, window.innerHeight);
   }
 
@@ -99,13 +80,6 @@ export class PanoramaComponent implements OnInit {
     this.pointerId = null;
   }
 
-  onDocumentMouseWheel(event: WheelEvent) {
-    const fov = this.camera.fov + event.deltaY * 0.05;
-
-    this.camera.fov = THREE.MathUtils.clamp(fov, 10, 75);
-    this.camera.updateProjectionMatrix();
-  }
-
   animate() {
     requestAnimationFrame(() => this.animate());
     this.update();
@@ -113,7 +87,7 @@ export class PanoramaComponent implements OnInit {
 
   update() {
     if (this.isUserInteracting === false) {
-      this.lon += 0.1;
+      this.lon += 0.05;
     }
 
     this.lat = Math.max(-85, Math.min(85, this.lat));
@@ -127,5 +101,21 @@ export class PanoramaComponent implements OnInit {
     this.camera.lookAt(x, y, z);
 
     this.renderer.render(this.scene, this.camera);
+  }
+
+  createSphere() {
+    const geometry = new THREE.SphereGeometry(500, 60, 40);
+    geometry.scale(-1, 1, 1);
+
+    const textureLoader = new THREE.TextureLoader();
+    textureLoader.load('assets/img/panorama.jpg', (texture) => {
+      texture.wrapS = THREE.RepeatWrapping; // Update the texture wrapping
+      texture.repeat.set(1, 1); // Set texture repeat values
+
+      const material = new THREE.MeshBasicMaterial({ map: texture });
+      const sphere = new THREE.Mesh(geometry, material);
+
+      this.scene.add(sphere);
+    });
   }
 }
