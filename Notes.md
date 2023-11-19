@@ -25,3 +25,8 @@ Oh sweet. The church test worked!! Now I have a template to work off of. Welp, t
 ## 11/18/23
 
 Okie dokie. Going to replace some elements to get a splash page...
+
+## 11/19/23 
+
+Going to continue to swap things out. Want this in 4H green with some movable cube placeholders for the time being...
+
