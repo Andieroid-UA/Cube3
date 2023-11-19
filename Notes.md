@@ -30,3 +30,7 @@ Okie dokie. Going to replace some elements to get a splash page...
 
 Going to continue to swap things out. Want this in 4H green with some movable cube placeholders for the time being...
 
+https://getbootstrap.com/docs/5.3/examples/carousel/
+
+*Okay, I'm going to create another branch so I can get these buttons working*
+
