@@ -26,11 +26,14 @@ Oh sweet. The church test worked!! Now I have a template to work off of. Welp, t
 
 Okie dokie. Going to replace some elements to get a splash page...
 
-## 11/19/23 
+## 11/19/23
 
 Going to continue to swap things out. Want this in 4H green with some movable cube placeholders for the time being...
-
 https://getbootstrap.com/docs/5.3/examples/carousel/
 
 *Okay, I'm going to create another branch so I can get these buttons working*
+
+Going off of this tutorial so I know how the button actions are integrated into the carousel...
+
+https://www.youtube.com/watch?v=ku_97a6Bgkg
 
