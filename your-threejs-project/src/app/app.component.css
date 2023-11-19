@@ -1,26 +1,34 @@
-/* .threejs {
-  width: 50%;
+
+/* THREE.JS ELEMENTS
+--------------------------------------------------------------*/
+
+.threejs {
+  width: 100%;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-
-p {
-  font-size: 25px;
 }
 
 .panorama {
-  width: 50%;
-  height: 50vh;
+  width: 100%;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-} */
+}
 
-/*--------------------------------------------------------------*/
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -98,17 +106,6 @@ p {
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
-
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: rgb(var(--bs-tertiary-color-rgb));
-}
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */

@@ -21,3 +21,7 @@ https://threejs.org/docs/#api/en/geometries/SphereGeometry
 ## 11/17/23
 
 Oh sweet. The church test worked!! Now I have a template to work off of. Welp, time to build that website base now that I have two examples.
+
+## 11/18/23
+
+Okie dokie. Going to replace some elements to get a splash page...
