@@ -37,3 +37,9 @@ Going off of this tutorial so I know how the button actions are integrated into 
 
 https://www.youtube.com/watch?v=ku_97a6Bgkg
 
+AHAAA!!!!
+
+![Alt text](image-2.png)
+
+The issue was the SCRIPTS in the "angular.json" didn't have the bootstrap script. It works now EEEE!! :D
+

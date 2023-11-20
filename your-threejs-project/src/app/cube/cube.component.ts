@@ -2,11 +2,11 @@ import { Component, ElementRef, NgZone, AfterViewInit, ViewChild } from '@angula
 import * as THREE from 'three';
 
 @Component({
-  selector: 'app-threejs',
-  templateUrl: './threejs.component.html',
-  styleUrls: ['./threejs.component.css']
+  selector: 'app-cube',
+  templateUrl: './cube.component.html',
+  styleUrl: './cube.component.css'
 })
-export class ThreejsComponent implements AfterViewInit {
+export class CubeComponent implements AfterViewInit {
   @ViewChild('rendererContainer') rendererContainer!: ElementRef;
 
   scene = new THREE.Scene();

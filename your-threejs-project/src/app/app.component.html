@@ -52,110 +52,13 @@
       </ul>
     </div>
 
-<!------------------------------------------------------------------------------------------------------>
-<header data-bs-theme="dark">
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">4-H STEM YOUniversity</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://extension.arizona.edu/4-h-stem">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Route</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Route 2</a>
-          </li>
-
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li> -->
-
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+<!-------HEADER ---------------------------------------------------->
+<app-header></app-header>
 
 <main>
-
-<!---------This is the Carousel's Portion---------------------------------------------------------------->
-
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-
-<!--This is the first slide of the carousel-->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="panorama">
-          <app-panorama></app-panorama>
-        </div>
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Welcome to 4-H STEM YOUniversity</h1>
-            <p class="opacity-75">STEM Education at your fingertips.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-          </div>
-        </div>
-      </div>
-
-<!--This is the second slide of the carousel-->
-      <div class="carousel-item">
-        <div class="panorama">
-          <app-panorama></app-panorama>
-        </div>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-
-<!--This is the third slide of the carousel-->
-      <div class="carousel-item">
-        <div class="panorama">
-          <app-panorama></app-panorama>
-        </div>
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-<!---------Carousel's Button Control---------------------------------------------------------------->
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-<!---End of Carousel's Portion--------------------------------------------------------------------->
+<!-----This is the Carousel's Portion------------------------------>
+<app-carousel></app-carousel>
+<!---End of Carousel's Portion------------------------------------>
 
 
   <!-- Marketing messaging and featurettes
@@ -206,7 +109,7 @@
       <div class="col-md-5">
 
         <div class="threejs">
-          <app-threejs></app-threejs>
+          <app-cube></app-cube>
         </div>
 
       </div>
@@ -222,7 +125,7 @@
       <div class="col-md-5 order-md-1">
 
         <div class="threejs">
-          <app-threejs></app-threejs>
+          <app-cube></app-cube>
         </div>
 
       </div>
@@ -238,7 +141,7 @@
       <div class="col-md-5">
 
         <div class="threejs">
-          <app-threejs></app-threejs>
+          <app-cube></app-cube>
         </div>
 
       </div>
