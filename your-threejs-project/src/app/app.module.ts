@@ -8,6 +8,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { HeaderComponent } from './header/header.component';
 import { CubeComponent } from './cube/cube.component';
 import { Panorama2Component } from './panorama2/panorama2.component';
+import { CubeMovingComponent } from './cube-moving/cube-moving.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { Panorama2Component } from './panorama2/panorama2.component';
     CarouselComponent,
     HeaderComponent,
     CubeComponent,
-    Panorama2Component
+    Panorama2Component,
+    CubeMovingComponent
   ],
   providers: [],
   bootstrap: [AppComponent],
