@@ -1,4 +1,10 @@
-/* THREE.JS ELEMENTS */
+.col-md-7,
+.col-md-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .threejs {
   width: 100%;
   height: 50vh;
@@ -16,8 +22,8 @@
 .featurette {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10em; /* Adjust this value as needed */
-  padding-right: 10em; /* Adjust this value as needed */
+  padding-left: 30em; /* Adjust this value as needed */
+  padding-right: 30em; /* Adjust this value as needed */
 }
 
 /* Thin out the marketing headings */
