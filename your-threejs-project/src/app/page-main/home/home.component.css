@@ -5,6 +5,9 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
+
+/*Something here to better take care of being too centered*/
+
 }
 
 .bd-placeholder-img {
@@ -65,8 +68,4 @@ body {
 
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
-}
-
-.container {
-  max-width: 960px;
 }

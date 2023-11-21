@@ -3,16 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PanoramaComponent } from './element-threejs/panorama/panorama.component';
+import { PanoramaComponent } from './shared/element-threejs/panorama/panorama.component';
 import { CarouselComponent } from './page-main/carousel/carousel.component';
 import { HeaderComponent } from './shared/header/header.component';
-import { CubeComponent } from './element-threejs/cube/cube.component';
-import { Panorama2Component } from './element-threejs/panorama2/panorama2.component';
-import { CubeMovingComponent } from './element-threejs/cube-moving/cube-moving.component';
+import { CubeComponent } from './shared/element-threejs/cube/cube.component';
+import { Panorama2Component } from './shared/element-threejs/panorama2/panorama2.component';
+import { CubeMovingComponent } from './shared/element-threejs/cube-moving/cube-moving.component';
 import { FeaturettesComponent } from './page-main/featurettes/featurettes.component';
 import { MarketingComponent } from './page-main/marketing/marketing.component';
-import { HomeComponent } from './home/home.component';
-import { DemoComponent } from './demo/demo.component';
+import { HomeComponent } from './page-main/home/home.component';
+import { DemoComponent } from './page-demo/demo/demo.component';
 
 @NgModule({
   declarations: [

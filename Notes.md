@@ -53,4 +53,9 @@ I just needed to add this to the app component, and modify the routing, and make
 
 I would like to get started with the layout of that demo page now...
 
-### ---
+## 11/21/23
+
+Today i'm going to get started with the template of that page!
+
+- Make a component for the demo, need to flush out so it's a "template" to be reused by the project as a whole for "other" modules and classes
+
