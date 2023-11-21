@@ -11,6 +11,8 @@ import { Panorama2Component } from './element-threejs/panorama2/panorama2.compon
 import { CubeMovingComponent } from './element-threejs/cube-moving/cube-moving.component';
 import { FeaturettesComponent } from './page-main/featurettes/featurettes.component';
 import { MarketingComponent } from './page-main/marketing/marketing.component';
+import { HomeComponent } from './home/home.component';
+import { DemoComponent } from './demo/demo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { MarketingComponent } from './page-main/marketing/marketing.component';
     Panorama2Component,
     CubeMovingComponent,
     FeaturettesComponent,
-    MarketingComponent
+    MarketingComponent,
+    HomeComponent,
+    DemoComponent
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -47,3 +47,10 @@ The issue was the SCRIPTS in the "angular.json" didn't have the bootstrap script
 
 *going to change this to a template. Then work off that template*
 
+I just needed to add this to the app component, and modify the routing, and make a brand new component specifically for the splash page
+
+<router-outlet></router-outlet>
+
+I would like to get started with the layout of that demo page now...
+
+### ---
