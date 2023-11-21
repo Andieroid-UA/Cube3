@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PanoramaComponent } from './panorama/panorama.component';
-import { CarouselComponent } from './carousel/carousel.component';
-import { HeaderComponent } from './header/header.component';
-import { CubeComponent } from './cube/cube.component';
-import { Panorama2Component } from './panorama2/panorama2.component';
-import { CubeMovingComponent } from './cube-moving/cube-moving.component';
-import { FeaturettesComponent } from './featurettes/featurettes.component';
-import { MarketingComponent } from './marketing/marketing.component';
+import { PanoramaComponent } from './element-threejs/panorama/panorama.component';
+import { CarouselComponent } from './page-main/carousel/carousel.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { CubeComponent } from './element-threejs/cube/cube.component';
+import { Panorama2Component } from './element-threejs/panorama2/panorama2.component';
+import { CubeMovingComponent } from './element-threejs/cube-moving/cube-moving.component';
+import { FeaturettesComponent } from './page-main/featurettes/featurettes.component';
+import { MarketingComponent } from './page-main/marketing/marketing.component';
 
 @NgModule({
   declarations: [

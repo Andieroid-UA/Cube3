@@ -4,7 +4,7 @@ import * as THREE from 'three';
 @Component({
   selector: 'app-cube-moving',
   templateUrl: './cube-moving.component.html',
-  styleUrl: './cube-moving.component.css'
+  styleUrls: ['./cube-moving.component.css']
 })
 export class CubeMovingComponent implements AfterViewInit {
 
@@ -14,9 +14,11 @@ export class CubeMovingComponent implements AfterViewInit {
   camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
   renderer = new THREE.WebGLRenderer();
   cube!: THREE.Mesh;
+  windowHalfX = window.innerWidth / 2;
+  windowHalfY = window.innerHeight / 2;
   mouseDown = false;
-  lastMouseX = 0;
-  lastMouseY = 0;
+  mouseX = 0;
+  mouseY = 0;
 
   constructor(private ngZone: NgZone) {}
 
@@ -35,11 +37,13 @@ export class CubeMovingComponent implements AfterViewInit {
       requestAnimationFrame(animate);
 
       if (this.mouseDown) {
-        const deltaX = this.lastMouseX - window.innerWidth / 2;
-        const deltaY = this.lastMouseY - window.innerHeight / 2;
+        const rotationSpeed = 0.005; // Adjust this value for slower or faster movement
 
-        this.cube.rotation.x += deltaY * 0.01;
-        this.cube.rotation.y += deltaX * 0.01;
+        const deltaX = this.mouseX - this.windowHalfX;
+        const deltaY = this.mouseY - this.windowHalfY;
+
+        this.cube.rotation.x += deltaY * rotationSpeed;
+        this.cube.rotation.y += deltaX * rotationSpeed;
       }
 
       this.renderer.render(this.scene, this.camera);
@@ -49,11 +53,10 @@ export class CubeMovingComponent implements AfterViewInit {
       animate();
     });
 
-    // Event listeners for mouse movement
     window.addEventListener('mousedown', (event) => {
       this.mouseDown = true;
-      this.lastMouseX = event.clientX;
-      this.lastMouseY = event.clientY;
+      this.mouseX = event.clientX;
+      this.mouseY = event.clientY;
     });
 
     window.addEventListener('mouseup', () => {
@@ -62,16 +65,9 @@ export class CubeMovingComponent implements AfterViewInit {
 
     window.addEventListener('mousemove', (event) => {
       if (this.mouseDown) {
-        const deltaX = event.clientX - this.lastMouseX;
-        const deltaY = event.clientY - this.lastMouseY;
-
-        this.cube.rotation.x += deltaY * 0.01;
-        this.cube.rotation.y += deltaX * 0.01;
-
-        this.lastMouseX = event.clientX;
-        this.lastMouseY = event.clientY;
+        this.mouseX = event.clientX;
+        this.mouseY = event.clientY;
       }
     });
   }
-
 }
