@@ -1,21 +1,23 @@
-body {
-  margin-top: 6em;
-  margin-left: -18.9em;
+.flex-container {
   margin-top: 5em;
-  margin-right: -18.8em;
+  margin-left: -20em;
+  display: flex;
 }
 
 .app-window-progress {
-  text-align: left;
-  flex-wrap: wrap;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
 }
 
 .app-window-main {
-  text-align: center;
-  flex-wrap: wrap;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
 }
 
 .app-window-instructions {
-  text-align: right;
-  flex-wrap: wrap;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
 }

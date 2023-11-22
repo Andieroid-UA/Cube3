@@ -29,16 +29,16 @@ import { WindowInstructionsComponent } from "./page-demo/window-instructions/win
         FeaturettesComponent,
         MarketingComponent,
         HomeComponent,
-        DemoComponent
+        DemoComponent,
+        WindowProgressComponent,
+        WindowMainComponent,
+        WindowInstructionsComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,
-        AppRoutingModule,
-        WindowProgressComponent,
-        WindowMainComponent,
-        WindowInstructionsComponent
+        AppRoutingModule
     ]
 })
 export class AppModule { }

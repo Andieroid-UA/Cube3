@@ -1,7 +1,10 @@
+h1 {
+  padding-top: 20px;
+}
+
 .window {
   width:400px;
-  height:800px;
+  height:836px;
   background:green;
   text-align: center;
-  align-items: left;
 }

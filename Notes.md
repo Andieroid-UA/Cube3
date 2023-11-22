@@ -67,4 +67,14 @@ WHOOHOO! In trying to organize those cubes on the demo page, I finally found a w
 - make a firebase thing for the login
 - You need to do a test run of that cat app in it's own project, then migrate it over here. Just like you did with that cube. THIS is what's going to make this non-crud since you can  download and upload models. This is the BREAD AND BUTTER of the demo!
 
-## 
+## 11/22/23
+
+Okay, I was able to move things around to get this kind of 
+
+![Alt text](image-3.png)
+
+![Alt text](image-4.png)
+
+I am trying to get something like this below. Will most likely need to make a few more components but this will help emphasize the capability to not only reuse this for the rest of the modules, but to use it across courses as well and essentially make the beginnings of an LMS site.
+
+![Alt text](image-5.png)

@@ -2,6 +2,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
+  /*Yes Andie, this is where you fixed the width problem with the page */
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
   margin-left: -18.9em;
