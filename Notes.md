@@ -61,3 +61,10 @@ Today i'm going to get started with the template of that page!
 
 WHOOHOO! In trying to organize those cubes on the demo page, I finally found a way to expand the main splash page. Weird how it solves itself like that...
 
+*Note to self, after the layout you want to start to get these things ready*
+
+- login page and fake login icon in the header
+- make a firebase thing for the login
+- You need to do a test run of that cat app in it's own project, then migrate it over here. Just like you did with that cube. THIS is what's going to make this non-crud since you can  download and upload models. This is the BREAD AND BUTTER of the demo!
+
+## 
