@@ -2,12 +2,10 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
-
-/*Something here to better take care of being too centered*/
-
+  margin-left: -18.9em;
+  margin-right: -18.8em;
 }
 
 .bd-placeholder-img {
@@ -68,4 +66,8 @@ body {
 
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
+}
+
+.container {
+  margin-top: -5em;
 }

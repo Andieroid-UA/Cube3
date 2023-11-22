@@ -1,0 +1,21 @@
+body {
+  margin-top: 6em;
+  margin-left: -18.9em;
+  margin-top: 5em;
+  margin-right: -18.8em;
+}
+
+.app-window-progress {
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.app-window-main {
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.app-window-instructions {
+  text-align: right;
+  flex-wrap: wrap;
+}

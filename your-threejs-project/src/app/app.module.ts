@@ -13,26 +13,32 @@ import { FeaturettesComponent } from './page-main/featurettes/featurettes.compon
 import { MarketingComponent } from './page-main/marketing/marketing.component';
 import { HomeComponent } from './page-main/home/home.component';
 import { DemoComponent } from './page-demo/demo/demo.component';
+import { WindowProgressComponent } from "./page-demo/window-progress/window-progress.component";
+import { WindowMainComponent } from "./page-demo/window-main/window-main.component";
+import { WindowInstructionsComponent } from "./page-demo/window-instructions/window-instructions.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    PanoramaComponent,
-    CarouselComponent,
-    HeaderComponent,
-    CubeComponent,
-    Panorama2Component,
-    CubeMovingComponent,
-    FeaturettesComponent,
-    MarketingComponent,
-    HomeComponent,
-    DemoComponent
-  ],
-  providers: [],
-  bootstrap: [AppComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ]
+    declarations: [
+        AppComponent,
+        PanoramaComponent,
+        CarouselComponent,
+        HeaderComponent,
+        CubeComponent,
+        Panorama2Component,
+        CubeMovingComponent,
+        FeaturettesComponent,
+        MarketingComponent,
+        HomeComponent,
+        DemoComponent
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        WindowProgressComponent,
+        WindowMainComponent,
+        WindowInstructionsComponent
+    ]
 })
 export class AppModule { }
