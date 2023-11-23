@@ -1,8 +1,7 @@
-h1 {
-  padding-top: 20px;
-}
-
-/* Style the content window */
-.window {
-  text-align: center; /* Center align content */
+/* THIS ONE WORKS!! */
+:host {
+  display: block;
+  height: 91.25vh; /* Set the component to take the full viewport height */
+  overflow: hidden; /* Hide any overflowing content */
+  width: 9000vh;
 }

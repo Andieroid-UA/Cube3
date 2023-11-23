@@ -2,6 +2,7 @@
   margin-top: 5em;
   margin-left: -20em;
   display: flex;
+  margin-right: -308px;
 }
 
 .app-window-progress {
@@ -10,14 +11,8 @@
   margin-right: 10px;
 }
 
-.app-window-main {
-  width: 100px;
-  height: 100px;
-  margin-right: 10px;
-}
-
 .app-window-instructions {
   width: 100px;
   height: 100px;
-  margin-right: 10px;
+  margin-right: 100px;
 }
