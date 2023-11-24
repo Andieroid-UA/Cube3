@@ -16,6 +16,7 @@ import { DemoComponent } from './page-demo/demo/demo.component';
 import { WindowProgressComponent } from "./page-demo/window-progress/window-progress.component";
 import { WindowMainComponent } from "./page-demo/window-main/window-main.component";
 import { WindowInstructionsComponent } from "./page-demo/window-instructions/window-instructions.component";
+import { WindowContentComponent } from './page-demo/window-content/window-content.component';
 
 @NgModule({
     declarations: [
@@ -32,7 +33,8 @@ import { WindowInstructionsComponent } from "./page-demo/window-instructions/win
         DemoComponent,
         WindowProgressComponent,
         WindowMainComponent,
-        WindowInstructionsComponent
+        WindowInstructionsComponent,
+        WindowContentComponent
     ],
     providers: [],
     bootstrap: [AppComponent],

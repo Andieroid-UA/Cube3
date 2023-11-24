@@ -1,7 +1,8 @@
-h2 {
+h2, p {
   padding-top: 20px;
+  text-align: center;
+  padding: 10px;
 }
-
 .window {
   width:400px;
   height:836px;

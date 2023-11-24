@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  height: 75vh; /* Set the component to take the full viewport height */
+  overflow: hidden; /* Hide any overflowing content */
+  width: 130vh;
+  object-fit: contain; /* Try different object-fit values */
+  margin: 20px;
+}
+
+/*
+:host {
+  display: block;
+  height: 75vh;
+  overflow: hidden;
+  width: 130vh;
+  object-fit: contain;
+  margin: 20px;
+} */
