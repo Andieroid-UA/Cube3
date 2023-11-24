@@ -78,3 +78,15 @@ Okay, I was able to move things around to get this kind of
 I am trying to get something like this below. Will most likely need to make a few more components but this will help emphasize the capability to not only reuse this for the rest of the modules, but to use it across courses as well and essentially make the beginnings of an LMS site.
 
 ![Alt text](image-5.png)
+
+## 11/24/23
+
+![Alt text](image-6.png)
+
+Now that I have the base need to get the following done before the year is out:
+
+- Get a login page
+- Connect login to Firebase
+- Make it so you need to login to see the Demo pages
+- Start cat tree project in another project, then merge into this one once it's working (we can customize it LATER)
+
