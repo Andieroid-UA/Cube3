@@ -1,15 +1,19 @@
 // app-routing.module.ts
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+
+import { HomeComponent } from './page-main/home/home.component';
+import { DemoComponent } from './page-demo/demo/demo.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent }, // Root route displays ThreejsComponent
-  // Add other routes if needed
+  { path: '', redirectTo: '/main', pathMatch: 'full' },
+  { path: 'main', component: HomeComponent },
+  { path: 'demo', component: DemoComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule {}

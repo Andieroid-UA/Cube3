@@ -1,0 +1,32 @@
+h1 {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.window {
+  width:250px;
+  height:836px;
+  background:green;
+  text-align: center;
+}
+
+/*----------PROGRESS BAR--------*/
+
+.sphere {
+  width: 35px; /* Adjust the size of the sphere */
+  height: 50px;
+  border-radius: 50%; /* Make the element a circle */
+  background: #003e1f; /* Sphere color */
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* Add a shadow to create depth */
+
+  /* Perspective and transform for a 3D effect */
+  perspective: 300px; /* Adjust perspective for 3D effect */
+  transform-style: preserve-3d; /* Maintain 3D transformations */
+  transform: rotateX(45deg); /* Tilt the sphere */
+}
+
+.progress-bar {
+  padding-left: 6.5em;
+  padding-top: 2em;
+}
