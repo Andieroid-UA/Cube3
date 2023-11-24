@@ -85,8 +85,12 @@ I am trying to get something like this below. Will most likely need to make a fe
 
 Now that I have the base need to get the following done before the year is out:
 
-- Get a login page
 - Connect login to Firebase
-- Make it so you need to login to see the Demo pages
 - Start cat tree project in another project, then merge into this one once it's working (we can customize it LATER)
+
+Got done:
+- A login page and splash pages
+- Made it so I need to login to see the demo pages
+
+![Alt text](image-7.png)
 
