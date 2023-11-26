@@ -94,3 +94,34 @@ Got done:
 
 ![Alt text](image-7.png)
 
+Need:
+
+- Floating element in top right corner as a toggle for parent element. Dialouge Modal
+
+## 11/25/23
+
+Today is the day we get that cat tree app up and running! And then going to Frankenstien it!!
+
+---------------------------------------------------------------
+
+AHA! It looks like the Bower installation thing is a thing... and I can slowly piece together what I need from the library to re-create the editor myself...
+
+Editor/Spline/Geometry
+    https://threejs.org/examples/?q=editor#webgl_geometry_spline_editor
+
+Exporter/GLTF
+Exporter/OBJ
+Exporter/PLY
+Exporter/STL
+Exporter/USDZ
+Exporter/EXR
+Exporter/DRACO
+
+------------------------------------------------------------
+Bower installation (Bower is a package manager for client-side libraries and components that contain HTML, CSS, JavaScript, fonts, image files, and so on. You can install, locate, upgrade, and remove Bower packages without leaving WebStorm, on the dedicated Bower page or from the command line in the built-in terminal.)
+    https://www.jetbrains.com/help/webstorm/using-bower-package-manager.html
+
+
+Oh nice!! I found this lead to where the 3D models are being stored:
+https://bitbucket.org/felis_catus/workspace/repositories/
+

@@ -1,0 +1,51 @@
+.optionBeaver::first-letter {
+  color: rgb(116, 97, 88);
+}
+
+.optionBeige::first-letter {
+  color: rgb(228, 221, 204);
+}
+
+.optionChestnut::first-letter {
+  color: rgb(88, 33, 30);
+}
+
+.optionChocolate::first-letter {
+  color: rgb(83, 55, 37);
+}
+
+.optionCopper::first-letter {
+  color: rgb(145, 83, 49);
+}
+
+.optionDesert::first-letter {
+  color: rgb(150, 132, 124);
+}
+
+.optionIndigo::first-letter {
+  color: rgb(68, 84, 108);
+}
+
+.optionKhaki::first-letter {
+  color: rgb(122, 98, 78);
+}
+
+.optionMink::first-letter {
+  color: rgb(150, 127, 109);
+}
+
+.optionNatural::first-letter {
+  color: rgb(224, 189, 141);
+}
+
+.optionSteel::first-letter {
+  color: rgb(159, 158, 154);
+}
+
+.optionTan::first-letter {
+  color: rgb(191, 165, 147);
+}
+
+.optionTaupe::first-letter {
+  color: rgb(105, 95, 85);
+}
