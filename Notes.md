@@ -6,6 +6,8 @@ I used inspiration from this one. But it wasn't working. Made a test plain html 
 
 Also changing background to black because my eyes hurt.
 
+![Alt text](image-13.png)
+
 ![Alt text](image.png)
 
 It now works, but with these dimentions it really should be wrapping around like an equirectangular panorama!
@@ -13,6 +15,8 @@ It now works, but with these dimentions it really should be wrapping around like
 https://threejs.org/docs/#api/en/geometries/SphereGeometry
 
 ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+
+Finally got it working
 
 ![Alt text](image-1.png)
 
