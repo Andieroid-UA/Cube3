@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+
 import { ThreeComponent } from './three/three.component';
+import { AppComponent } from './app.component';
 
 @NgModule({
     declarations: [
@@ -15,4 +16,5 @@ import { ThreeComponent } from './three/three.component';
         BrowserModule,
     ]
 })
-export class AppModule { }
+export class AppModule {
+ }

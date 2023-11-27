@@ -208,4 +208,10 @@ Okay, I tried making a BRAND NEW project and it is still giving me this error:
 
 I am going to stop for now and pickup tomorrow.
 
-## 
+## 11/27/23
+
+Not the extact answer, but a lead:
+https://www.youtube.com/watch?v=EcIXA-DptI4
+
+Try using this terminology: "Angular Error NG8001: is not a known element Angular component"
+
