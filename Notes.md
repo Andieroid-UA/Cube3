@@ -125,3 +125,74 @@ Bower installation (Bower is a package manager for client-side libraries and com
 Oh nice!! I found this lead to where the 3D models are being stored:
 https://bitbucket.org/felis_catus/workspace/repositories/
 
+
+**********************************
+
+Searching for example projects...
+
+https://github.com/aoobao/threejs-editor
+
+https://github.com/nterms/threejs-editor
+
+https://github.com/holdnewworld/ThreejsBrickEditor/tree/master
+
+https://github.com/AdrianNguyen-UIT/ThreeJSEditor/tree/main
+
+
+This one... is the CLEANEST. And looks like it gives me bare-bones for getting the project up and running...
+https://github.com/AdrianNguyen-UIT/ThreeJSEditor/tree/main/source/src
+
+
+## 11/26/23
+
+I am resorting to trying out that older project and find that... it is not working when I install Angular. so it looks like it's not an angular project *afterall*
+
+![Alt text](image-10.png)
+
+I am attempting to recreate it. Perhaps I should just throw it in a Test Angular project and go from there...
+
+![Alt text](image-11.png)
+
+SO IT DOES WORK?!
+
+I just had to go to *the release folder* 🙃
+
+
+OG Editor here: https://threejs.org/editor/
+
+****
+
+OKAY! Huge discovery!! 
+
+There was a read.me file that mentioned installing the following into the Source folder:
+
+- npm install (node)??
+- npm run dev
+- npm run build
+
+This also allows me to "build" and access the project files!!
+
+**And, in short, the Angular CLI is still using webpack under the hood so you technically don't need to install it TWICE!
+It also looks like the bundler file is created like this:
+
+    To create a webpack.common.js file, you would typically:
+
+    Set up your project directory.
+    Install webpack and necessary dependencies (npm install webpack webpack-cli or yarn add webpack webpack-cli).
+    Create a webpack.common.js file manually or using tools/scripts.
+    Configure the basic settings in this file, such as entry points, output paths, loaders, and plugins.
+
+I don't really know what's going on with that static folder and the sphere image...
+
+And the SRC has the index, js, and css I need to get at least a PLACEHOLDER for the project.
+
+![Alt text](image-12.png)
+
+***
+
+Okay, after smashing the library into a more condensed form I am now going to install the following:
+
+    npm install dat.gui
+
+    npm install @tweenjs/tween.js
+

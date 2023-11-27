@@ -45,7 +45,7 @@ https://threejs.org/editor/
 It was originally found HERE!
 http://benchung.com/using-three-js-editor/
 
+![Alt text](image-9.png)
 
-Oh wow, this is what I've needed to find information on...
-https://www.youtube.com/watch?v=DcDbRQUSbsw
+Alrighty, so this is what it kind of looks like...
 
