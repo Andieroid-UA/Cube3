@@ -196,3 +196,8 @@ Okay, after smashing the library into a more condensed form I am now going to in
 
     npm install @tweenjs/tween.js
 
+***********
+
+I am going to stop for tonight. Please try re-creating the entire environment in a brand new project file. Get it running blank, THEN import the rest of the code... then we are going to dig through the project code to see where it's missing.
+
+## 

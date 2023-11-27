@@ -10,7 +10,7 @@ import { TransformControls } from 'three/examples/jsm/controls/TransformControls
   templateUrl: './three.component.html',
   styleUrls: ['./three.component.css'] // Import your styles here
 })
-export class ThreeJsViewerComponent implements OnInit {
+export class ThreeComponent implements OnInit {
   @ViewChild('rendererCanvas', { static: true }) rendererCanvas: ElementRef<HTMLCanvasElement>;
 
   private scene: THREE.Scene;
