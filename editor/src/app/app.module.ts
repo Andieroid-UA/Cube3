@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ThreeJsViewerComponent } from './three-jsviewer/three-jsviewer.component';
+import { ThreeComponent } from './three/three.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        ThreeJsViewerComponent
+        ThreeComponent
     ],
     providers: [],
     bootstrap: [AppComponent],

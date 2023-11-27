@@ -6,9 +6,9 @@ import { TransformControls } from 'three/examples/jsm/controls/TransformControls
 // import * as TWEEN from '@tweenjs/tween.js';
 
 @Component({
-  selector: 'app-three-jsviewer',
-  templateUrl: './three-jsviewer.component.html',
-  styleUrls: ['./three-jsviewer.component.css'] // Import your styles here
+  selector: 'app-three',
+  templateUrl: './three.component.html',
+  styleUrls: ['./three.component.css'] // Import your styles here
 })
 export class ThreeJsViewerComponent implements OnInit {
   @ViewChild('rendererCanvas', { static: true }) rendererCanvas: ElementRef<HTMLCanvasElement>;
