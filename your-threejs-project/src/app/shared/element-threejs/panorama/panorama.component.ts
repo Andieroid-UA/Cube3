@@ -108,7 +108,7 @@ export class PanoramaComponent implements OnInit {
     geometry.scale(-1, 1, 1);
 
     const textureLoader = new THREE.TextureLoader();
-    textureLoader.load('assets/img/panorama.jpg', (texture) => {
+    textureLoader.load('assets/img/After.png', (texture) => {
       texture.wrapS = THREE.RepeatWrapping; // Update the texture wrapping
       texture.repeat.set(1, 1); // Set texture repeat values
 
